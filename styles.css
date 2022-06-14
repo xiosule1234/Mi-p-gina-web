@@ -1,0 +1,404 @@
+
+*{
+    margin:0px
+}
+.index{
+    
+    background-image: url(portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    
+}
+
+.principal{
+  
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   color: rgb(255, 255, 255);
+   text-align: center;
+
+
+}
+
+.principal_titulo{
+
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.principal_parrafo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.principal_button{
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+body,html{ 
+    font-size: 16px;
+    max-height: 100%;
+    margin:0;
+}
+
+.redesSociales{ 
+    background-color:rgb(254, 197, 187);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes_sociales_logo{ 
+    height:30px;
+    margin-top: 25px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.menu{ 
+    background-color: rgb(252, 235, 232);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_logotipo{ 
+    height: 200px;
+}
+
+.menu_lista{ 
+    display: flex;
+    list-style: none;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.menu_lista_link{
+    text-decoration: none;
+    color:black;
+ }
+
+ .menu_lista_elementos{ 
+    margin-left: 40px;
+}
+
+.menu_lista_link:hover{ 
+    color: whitesmoke;
+    }
+    
+.footer{ 
+        background:linear-gradient(rgb(164, 197, 176), rgb(248, 237, 235));
+        height: 100px;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        
+}
+    
+.footer_texto{ 
+        font-family:"play";
+        color:rgb(255, 253, 253);
+        font-size: 20px;
+
+}
+    
+ .Lado_Derecho{
+        border: 7px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        align-items: flex-start;
+        
+       
+    }
+    
+    .Lado_Derecho__img{
+        width: 20%;
+        height: 20%;
+    }
+    
+    .Lado_Derecho__texto{
+        width: 40%;
+        justify-content: flex-start;
+        font-size: 20px;
+        text-align: justify;
+        
+    }
+
+     h1,p{
+        margin: 20px;
+        text-align:justify;
+        text-justify: center
+        ;
+    }
+
+    .YoXio{
+        background-color: rgb(248, 237, 235);
+        align-items: center;
+        text-align: justify;
+        
+    }
+    .contenedorCards{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        padding: 20px;
+    
+    }
+    
+    
+     .card{
+         border: 2 px solid rgb(201, 200,200);
+         border-radius: 2px;
+         width: 20%;
+         height: 100%;
+         text-align: center;
+         margin: 0 50px; 
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         border-radius: 15px;
+         font-size: 90%;
+         background-color: rgb(250, 242, 221);
+         color: black;
+     }   
+    
+    .card__img{
+        width: 90%;
+        margin: 20px 0 0 0;
+    
+    }
+    
+    .card__titulo{
+        margin: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    .card__parrafo{
+        margin-bottom: 10px;
+    }
+       
+    
+    .card__boton{
+        background-color:rgb(250, 242, 242);
+        height: 40px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 40px;
+    }
+    
+    
+    .Foto__yo{
+        width: 450px;
+        margin: 90px;
+        height: 450px;
+    }
+    
+    .TituloYo{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        justify-content: center;
+    }
+    
+    .main2{
+        text-align: justify;
+        margin: 100px;
+        
+    
+    }
+    .main3{
+        display: flex;
+        text-align: center;
+    }
+    
+    .boton__{
+    display: flex;
+    justify-content: center;
+     }
+
+    .boton_mimeta{
+        background-color: rgb(240, 243, 202);
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        width: 90px;
+    }
+
+    .contenedor2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin: 80px;
+        text-align: center;
+        margin-bottom: 65px;
+        justify-content: center;
+    }
+    .textoarriba{
+        text-align: center;
+    }
+    .subabajo{
+        font-family: cursive;
+        margin: 100 0;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .cuerpo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .cuerpo2{
+        padding: 30px;
+        width: 35%;
+    }
+
+    .tituloblog{
+        margin-bottom: 15px;
+    }
+    .blogtexto{
+        text-align: justify;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .blogimagen{
+        width: 30%;
+    }
+
+    .imagen2{
+        width: 100%;
+        border-radius: 30px;
+        margin-left: 15px;
+    }
+
+    .blogyo{
+        width: 60%;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .imagenn{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+
+    .imagenabajo{
+        width: 100%;
+        height: 100%;
+        border-radius: 99%;
+        border: none;
+        margin-right: 2px;
+    }
+
+    .textoabajo{
+        margin-left: 1px;
+
+    }
+
+    .textoabajo2{
+        font-size: 25px;
+        
+
+    }
+
+    .parrafoabajo{
+        margin-top: 3px;
+        font-family:serif;
+        font-size: 15px;
+    }
+
+   .Titulo{
+       text-align: center;
+   }
+
+   .contact{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CCcard{
+    text-align: center;
+}
+
+.CCimagen{
+    width: 100%;
+}
+
+.CCimg{
+    height: 265px;
+    width:225px;
+    border-radius: 10%;
+    margin-top: 75px;
+}
+
+.TitCC{
+    font-size: 35px;
+    margin-bottom: 14px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.correo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 13px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.ciudad{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.CCredes{
+    border-top: 10px;
+    margin-top: 23px;
+    height: 25px;
+}
+
+i{
+    color: rgb(215, 126, 140);
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+
+
+.redes{
+    color: aliceblue;
+    margin-left:30px;
+}
+
+
+.pbio{
+    text-align: center;
+    text-justify: auto;
+    
+}
+
+.titulobio{
+    text-align: center;
+}
